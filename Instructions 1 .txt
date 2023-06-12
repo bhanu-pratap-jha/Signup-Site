@@ -1,0 +1,10 @@
+To setup our server to listen our port 3000:-
+
+const app = express ();
+
+app.listen(3000, function(){
+	console.log("Server is running on port 3000";
+})
+
+
+**) "heroku logs" command is used to diagnose where we would have done wrong in our code  
